@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "chai-bignumber": "^3.1.0",
+    "ganache-cli": "^6.12.2",
+    "hardhat": "^2.13.0",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.8.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2",
+    "bignumber.js": "^9.1.1",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3"
+  },
+  "name": "proxies",
+  "description": "This homework aims to create a simple safe contract that allows everyone to store funds in the contract. The core safe contract is defined in contracts/safe_bank.sol. The sample erc20 toeken is defined in contracts/erc20_token.sol. The test script writes in scripts/test.js.",
+  "version": "1.0.0",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
